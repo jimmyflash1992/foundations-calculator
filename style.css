@@ -2,14 +2,11 @@
     background-color: red;
     color: blue;
     width: 50px;
-    height: 50px;
-    border-radius: 3px;
+    height: 50px; */
     
 }
 
-
-
-.keypad {
+.keypad{
     display: grid;
     gap: 5px;
 }
@@ -19,21 +16,50 @@
     width: 105px;
 }
 
-.display {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
 
-}
 
 .result {
     height: 50px;
     background-color: aqua;
     text-align: right;
-
     margin: 0;
     padding: 5px;
-    margin-bottom: 15px;
-
+    border-bottom: 15px;
+    width: 200px;
+    margin-bottom: 5px;
+    
 }
+
+.calculator {
+    align-items: center;
+}
+
+/* Center the .calculator div in the middle of the screen */
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Horizontally center the .calculator */
+    align-items: center; /* Vertically center the .calculator */
+    height: 100vh; /* Full viewport height */
+    background-color: #f9f9f9; /* Optional: Light background for contrast */
+}
+
+.calculator {
+    display: flex;
+    flex-direction: column; /* Stack the content vertically */
+    align-items: center; /* Center content horizontally inside the .calculator */
+    justify-content: center; /* Center content vertically inside the .calculator */
+    background-color: white; /* Optional: Background color for the calculator */
+    border: 2px solid #ccc; /* Optional: Border for the calculator */
+    border-radius: 10px; /* Optional: Rounded corners */
+    padding: 20px; /* Optional: Padding inside the calculator */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional: Shadow for a modern look */
+}
+
+
+
+
+
+
+
